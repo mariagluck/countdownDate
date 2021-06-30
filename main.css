@@ -29,7 +29,7 @@ main {
   padding-top: 20%;
   opacity: 95%;
   margin: auto;
-  /* margin-left: 25%; */
+  margin-bottom: 0;
   
   
 }
@@ -45,9 +45,10 @@ main {
 
 p {
   display: inline;
-  /* font-size: 30px; */
+  margin-top: 0;
   color: white;
   padding: 10px;
+  padding-top: 0;
   
   
 }
