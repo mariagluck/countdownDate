@@ -26,10 +26,10 @@ main {
   background-repeat: no-repeat;
   width: 60vw; 
   height: 65vh;
-  padding-top: 20%;
+  /* padding-top: 20%; */
   opacity: 95%;
   margin: auto;
-  margin-bottom: 0;
+  
   
   
 }
@@ -45,11 +45,8 @@ main {
 
 p {
   display: inline;
-  margin-top: 0;
   color: white;
   padding: 10px;
-  padding-top: 0;
-  
   
 }
 
