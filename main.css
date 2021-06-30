@@ -1,0 +1,48 @@
+body,
+body * {
+  box-sizing: border-box;
+  
+}
+main {
+  background-image: url("/images/ben-rosett-nYugmV-SY6s-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.image {
+  background-image: url(/images/Bodas_de_Oro.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60vw; 
+  height: 65vh;
+  padding-top: 20%;
+  opacity: 95%;
+  margin: auto; 
+  
+  
+}
+
+.countdown {
+  width: 60vw; 
+  margin: auto; 
+  padding-top: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+
+p {
+  display: inline;
+  font-size: 30px;
+  color: white;
+  
+}
