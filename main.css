@@ -35,7 +35,7 @@ main {
 }
 
 .countdown {
-  width: 80vw; 
+  width: 90vw; 
   margin: auto; 
   display: flex;
   justify-content: center;
@@ -46,7 +46,7 @@ main {
 p {
   display: inline;
   color: white;
-  padding: 10px;
+  /* padding: 10px; */
   
 }
 
