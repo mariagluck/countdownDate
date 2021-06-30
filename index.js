@@ -14,20 +14,20 @@ let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
     
 // Result is output to the specific element
 document.getElementById("days").innerHTML = `
-<b style='font-size: 2em; color:white'>\ ${days}</b>` + 
-`<b style='font-size: 1em; color:white'>\ días </b>`; 
+<b style='font-size: 3em; color:white'>\ ${days}</b>` + 
+`<b style='font-size: 1.2em; color:white'>\ días </b>`; 
 
 document.getElementById("hours").innerHTML = `
-<b style='font-size: 2em; color:white'>\ ${hours}</b>` +
- `<b style='font-size: 1em; color:white'>\ horas </b>`; 
+<b style='font-size: 3em; color:white'>\ ${hours}</b>` +
+ `<b style='font-size: 1.2em; color:white'>\ horas </b>`; 
 
  document.getElementById("mins").innerHTML = `
-<b style='font-size: 2em; color:white'>\ ${minutes}</b>` +
- `<b style='font-size: 1em; color:white'>\ minutos </b>`;  
+<b style='font-size: 3em; color:white'>\ ${minutes}</b>` +
+ `<b style='font-size: 1.2em; color:white'>\ minutos </b>`;  
 
  document.getElementById("secs").innerHTML = `
-<b style='font-size: 2em; color:white'>\ ${seconds}</b>` +
- `<b style='font-size: 1em; color:white'>\ segundos </b>`;  
+<b style='font-size: 3em; color:white'>\ ${seconds}</b>` +
+ `<b style='font-size: 1.2em; color:white'>\ segundos </b>`;  
     
 // Display the message when countdown is over
 if (timeleft < 0) {

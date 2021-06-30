@@ -3,6 +3,8 @@ body * {
   box-sizing: border-box;
   
 }
+
+
 main {
   background-image: url("images/ben-rosett-nYugmV-SY6s-unsplash.jpg");
   background-size: cover;
@@ -25,7 +27,8 @@ main {
   height: 65vh;
   padding-top: 20%;
   opacity: 95%;
-  margin: auto; 
+  margin: auto;
+  /* margin-left: 25%; */
   
   
 }
@@ -35,14 +38,24 @@ main {
   margin: auto; 
   padding-top: 7%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 } 
 
 
 p {
   display: inline;
-  font-size: 30px;
+  /* font-size: 30px; */
   color: white;
+  padding: 10px;
+  
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .image{
+  width: 30vw;
+
+  }
   
 }
