@@ -26,7 +26,6 @@ main {
   background-repeat: no-repeat;
   width: 60vw; 
   height: 40vh;
-  /* padding-top: 20%; */
   opacity: 95%;
   margin: auto;
   
@@ -54,8 +53,13 @@ p {
 @media only screen and (min-width: 992px) {
   
   .image{
-  width: 30vw;
+  width: 400px;
+  margin:auto;
 
+  }
+  p {
+    font-size: 1.8em;
+    padding-top: 15%;
   }
   
 }
