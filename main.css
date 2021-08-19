@@ -21,15 +21,13 @@ main {
 }
 
 .image {
-  background-image: url(images/Bodas_de_Oro.jpg);
+  background-image: url(images/Bodas_de_Diamante.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 60vw; 
   height: 40vh;
   opacity: 95%;
   margin: auto;
-  
-  
   
 }
 
@@ -47,6 +45,7 @@ p {
   color: white;
   width: fit-content;
   padding: 2px;
+  margin: 5px;
   
 }
 
@@ -64,8 +63,18 @@ p {
 
   }
   p {
-    font-size: 1.8em;
+    font-size: 2em;
     padding-top: 15%;
   }
   
+}
+
+@media only screen and (max-width: 600px) {
+
+    p {
+      font-size: 0.8em;
+      padding-top: 15%;
+    }
+    
+
 }
